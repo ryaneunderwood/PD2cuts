@@ -1,6 +1,6 @@
 @registercut(branches=['TrigDet','TriggerType','TriggerMask'])
 def cTrigger_PD2(df):
-    return df['EventType'] == 1 & df['TriggerType']==1 &&df['TriggerMask']==1
+    return df['EventType'] == 1 & df['TriggerType']==1 & df['TriggerMask']==1
     
 @registercut(branches=['PES1OFAmps','PES1OFchisq'])    
 def cGoodChi2_PD2(df)
